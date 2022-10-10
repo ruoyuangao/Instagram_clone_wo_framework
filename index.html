@@ -1,0 +1,218 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="author" content="SitePoint">
+  <title>Instagram Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- display none -->
+
+<body >
+  <!--The headbar of Instagram-->
+  <div class="head_container">
+    <table class="headbar">
+      <tr>
+        <th id="logo_imgs">
+          <img src="images/icon.png">
+          <img src="images/line.png">
+          <img src="images/logotype.png">
+        </th>
+        <th>
+          <input id="search_input" type="text" placeholder="Search">
+        </th>
+        <th id="basic_imgs">
+          <img src="images/compass.png">
+          <img src="images/heart.png">
+          <img src="images/user.png">
+        </th>
+      </tr>
+    </table>
+    <hr class="hr-shadow">
+  </div>
+  
+  <div class="container">
+      <!--the sidebar component-->
+      <div id="sidebar">
+          <!--First part: the big profile-->
+          <div class="profile">
+              <table>
+                  <tr>
+                      <th><img class="top_profile_photo" src="images/LoidForger.jpg"></th>
+                      <th><p><h7>Loid Forger</h7><br> <h8>Anya's Father</h8></p></th>
+                  </tr>
+              </table>
+          </div>
+          <hr class="hr-shadow" id="hr_after_top_profile">
+          <!--Second part: the stories part-->
+          <h8 id="h8_stories">Stories</h8>
+          <h7 id="h7_stories">Watch All</h7>
+          <div id="stories">
+              <div class="profile">
+                  <table>
+                      <tr>
+                          <th><img class="profile_photo" src="images/YorForger.jpg"></th>
+                          <th><p><h7>Yor Forger</h7><br> <h8>1 HOURS AGO</h8></p></th>
+                      </tr>
+                  </table>
+                  <table>
+                      <tr>
+                          <th><img class="profile_photo" src="images/VladlenaMilizé.jpg"></th>
+                          <th><p><h7>Vladlena Milizé</h7><br> <h8>1 HOURS AGO</h8></p></th>
+                      </tr>
+                  </table>
+                  <table>
+                      <tr>
+                          <th><img class="profile_photo" src="images/ShineiNouzen.jpg"></th>
+                          <th><p><h7>Shinei Nouzen</h7><br> <h8>2 HOURS AGO</h8></p></th>
+                      </tr>
+                  </table>
+                  <table>
+                      <tr>
+                          <th><img class="profile_photo" src="images/AnjuEmma.jpg"></th>
+                          <th><p><h7>Anju Emma</h7><br> <h8>5 HOURS AGO</h8></p></th>
+                      </tr>
+                  </table>
+                  <table>
+                      <tr>
+                          <th><img class="profile_photo" src="images/TheotoRikka.jpg"></th>
+                          <th><p><h7>Theoto Rikka</h7><br> <h8>12 HOURS AGO</h8></p></th>
+                      </tr>
+                  </table>
+              </div>
+          </div>
+
+          <!--Third part: -->
+          <div style="width: 300px;">
+              <p id="additionals">
+                  <a href="#">About Us</a> · <a href="#">Support</a> · <a href="#">Press</a> · <a href="#">API</a> · <a href="#">Jobs</a> ·<br>
+                  <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Directory</a> · <a href="#">Profiles</a> ·<br>
+                  <a href="#">Hashtags</a> · <a href="#">Language</a><br><br>
+                  © 2018 INSTAGRAM
+              </p>
+          </div>
+      </div>
+
+      <!--The 1st Ins Content Component-->
+      <div class="ins_card">
+          <div class="ins_card_info">
+              <table>
+                  <tr>
+                      <th><img class="small_profile_photo" src="images/AnyaForger.jpg"></th>
+                      <th><h7>Anya Forger</h7></th>
+                  </tr>
+              </table>
+          </div>
+          <img class="card-img-top" src="images/weather.jpg">
+          <div class="ins_card_info">
+              <div class="basic_imgs_left">
+                  <img src="images/heart.png">
+                  <img src="images/speech_bubble.png">
+                  <img src="images/upload.png">
+              </div>
+              <div class="basic_imgs_right">
+                  <img src="images/bookmark.png">
+              </div>
+
+              <p class="inside_ins_card">
+                  <h7><b>11 likes</b></h7><br>
+                  <h7><b>Anya Forger</b>  Nice weather today :) </h7> <a style="color:#043666;">#weather</a><br>
+                  <h8>11 HOURS AGO</h8>
+                  <hr class="hr_inside_card">
+                  <span>
+                      <input type="text" class="input_comment" placeholder="Add a comment...">
+                      <a class="right_text">...</a>
+                  </span>
+              </p>
+          </div>
+      </div>
+      <!--The 2nd Ins Content Component-->
+      <div class="ins_card" id="second_card">
+          <div class="ins_card_info">
+              <table>
+                  <tr>
+                      <th><img class="small_profile_photo" src="images/AnyaForger.jpg"></th>
+                      <th><h7>Anya Forger</h7></th>
+                  </tr>
+              </table>
+          </div>
+          <img class="card-img-top" src="images/86animation.jpg">
+          <div class="ins_card_info">
+              <div class="basic_imgs_left">
+                  <img src="images/heart.png">
+                  <img src="images/speech_bubble.png">
+                  <img src="images/upload.png">
+              </div>
+              <div class="basic_imgs_right">
+                  <img src="images/bookmark.png">
+              </div>
+
+              <p class="inside_ins_card">
+                  <h7><b>11 likes</b></h7><br>
+                  <h7><b>Anya Forger</b>  I really love this film!!!</h7> <a style="color:#043666;">#86animation</a><br>
+                  <h8>23 HOURS AGO</h8>
+                  <hr class="hr_inside_card">
+                  <span>
+                      <input type="text" class="input_comment" placeholder="Add a comment...">
+                      <a class="right_text">...</a>
+                  </span>
+              </p>
+          </div>
+      </div>
+      <!--The suggestion part-->
+      <div class="suggestions">
+          <p id="inside_suggestions">
+              <span>
+                  <a id="suggestion_title"><b>Suggestions For You</b></a>
+                  <a class="right_text" id="see_all"><b>See All</b></a>
+              </span>
+          </p>
+
+          <div class="special_suggestions">
+              <div class="suggestion_card">
+                  <button type="button" class="close_button" aria-label="Close">×</button><br>
+                  <img class="suggestion_profile" src="images/AnyaForger.jpg">
+                  <p>
+                      <h7><b>Anya Forger</b></h7>  <img class="check_img" src="images/check.png"><br>
+                      <h8> Popular Star</h8>
+                  </p>
+                  <button type="button" class="follow_button" href="#">Follow</button>
+              </div>
+
+              <div class="suggestion_card">
+                  <button type="button" class="close_button" aria-label="Close">×</button><br>
+                  <img class="suggestion_profile" src="images/AnyaForger.jpg">
+                  <p>
+                      <h7><b>Anya Forger</b></h7>  <img class="check_img" src="images/check.png"><br>
+                      <h8> Popular Star</h8>
+                  </p>
+                  <button type="button" class="follow_button" href="#">Follow</button>
+              </div>
+
+              <div class="suggestion_card">
+                  <button type="button" class="close_button" aria-label="Close">×</button><br>
+                  <img class="suggestion_profile" src="images/AnyaForger.jpg">
+                  <p>
+                      <h7><b>Anya Forger</b></h7>  <img class="check_img" src="images/check.png"><br>
+                      <h8> Popular Star</h8>
+                  </p>
+                  <button type="button" class="follow_button" href="#">Follow</button>
+              </div>
+          </div>
+
+
+
+
+
+
+      </div>
+  </div>
+
+
+
+
+
+
+</body>
+</html>

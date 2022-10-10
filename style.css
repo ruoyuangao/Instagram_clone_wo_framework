@@ -1,0 +1,275 @@
+/* General Items */
+h7 {
+  margin-left:7px;
+  padding-bottom:3px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+h8 {
+  margin-left:7px;
+  padding-bottom:3px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color:#949BA1;
+  text-align: left;
+}
+.hr-shadow {
+    width: 95%;
+    border: 0;
+    border: 1px solid #DFDFDF;
+}
+
+body {
+  background-color: #f8f8f8;
+  padding-bottom:50px;
+ }
+
+@media only screen and(max-width:921px) {
+    #sidebar {
+        display: none;
+    }
+
+    .headbar th {
+        padding-left: 5%;
+    }
+
+    #search_input {
+        background-image: url('images/searchicon.png');
+        background-position: 10px 1px;
+        width: 80px;
+    }
+}
+/* The headbar of Instagram */
+.head_container {
+  position:fixed;
+  width: 100%;
+  top:0px;
+  padding-top: 15px;
+  background-color: #FAFAFA;
+}
+.headbar {
+  width: 100%;
+  text-align: left;
+}
+.headbar th {
+  padding-left:5%;
+}
+#logo_imgs img {
+  height: 35px;
+}
+#basic_imgs img {
+  height: 20px;
+  margin-left: 25px;
+}
+#search_input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height:25px;
+  width: 60%;
+  color: #84888c;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  background-color: #f7f6f62d;
+  background-image: url('images/searchicon.png');
+  background-position: 30px 1px; 
+  background-repeat: no-repeat;
+}
+#search_input:focus {
+    background-color:#0094ff;
+}
+
+
+
+
+/* the sidebar component */
+#sidebar {
+  margin-top:-60px;
+  margin-left:750px;
+  position:fixed;
+  width: 350px;
+}
+#hr_after_top_profile {
+  margin-top:80px;
+}
+
+.profile {
+  float: left;
+  margin-left: 20px;
+  text-align: left;
+}
+#stories {
+  height:270px;
+  overflow-y: scroll;
+  overflow-x:hidden;
+  padding-top: 10px;
+}
+#h8_stories {
+  text-align: left;
+  padding-top: 10px;
+}
+#h7_stories {
+  text-align: right;
+  float:right;
+  font-size: 12px;
+}
+.top_profile_photo{
+  border-radius: 50%;
+  height: 45px;
+  height: 45px;
+}
+.profile_photo{
+  border-radius: 50%;
+  height: 45px;
+  height: 45px;
+  border: 2px solid;
+  border-color: #c5348e;
+}
+#additionals {
+  font-size:11px;
+  color:#adb0b3;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 130%;
+}
+
+/* The Ins Content Component */
+.ins_card {
+  width:570px;
+  height:auto;
+  margin-left: 8%;
+  margin-top: 140px;
+  border: #84888c;
+}
+.small_profile_photo{
+  border-radius: 50%;
+  margin-left: 15px;
+  height: 35px;
+  height: 35px;
+}
+.card-img-top {
+  width: 100%;
+}
+.ins_card_info {
+    margin-top: -1%;
+    padding-top: 3%;
+    border: 1px solid #c8cccf;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.basic_imgs_left img {
+    margin-left: 3%;
+    height: 20px;
+    margin-left: 10px;
+}
+.basic_imgs_right img {
+    margin-right: 3%;
+    height: 20px;
+    float: right;
+    margin-top: -22px;
+}
+
+.inside_ins_card {
+    margin-left: 1%;
+    text-align:left;
+}
+
+
+.hr_inside_card {
+    width: 95%;
+    border: 0;
+    border:1px solid #DFDFDF;
+}
+
+.input_comment {
+    border:none;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-left:2%;
+}
+
+.right_text {
+    float: right;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+#second_card {
+    margin-top: 50px;
+}
+
+
+/* The Suggestion Component */
+
+.suggestions {
+    width: 570px;
+    height: 300px;
+    margin-left: 8%;
+    margin-top: 50px;
+    border: 1px solid #c8cccf;
+    border-radius: 4px;
+}
+
+#see_all {
+    margin-top: 1%;
+    color: #0094ff;
+    font-size: 13px;
+}
+
+#suggestion_title {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #949BA1;
+    text-align: left;
+}
+
+.special_suggestions {
+    white-space: nowrap;
+}
+
+.suggestion_card {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 160px;
+    border: 1px solid #c8cccf;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.suggestion_profile {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 60px;
+}
+
+.check_img {
+    width:18px;
+}
+
+.follow_button {
+    background-color: #0094ff;
+    border-radius: 4px;
+    border: none;
+    height: 27px;
+    color: white;
+    width: 130px;
+}
+
+.close_button {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50px;
+    background: #f8f8f8;
+    border: none;
+    font-size:20px;
+    color:#84888c;
+}
